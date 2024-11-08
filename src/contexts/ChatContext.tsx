@@ -1,3 +1,5 @@
+'use client'
+
 import { chatReducer } from "@/reducers/chatReducer";
 import { createContext, ReactNode, useContext, useReducer } from "react";
 import { MessageProps } from "../types/message";
