@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Chat simple",
+  title: "Chat simples",
   description:
     "Este é um chat simples desenvolvido no curso de ReactJS da B7Web",
 };
