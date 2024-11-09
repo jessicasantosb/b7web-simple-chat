@@ -2,6 +2,7 @@
 
 import { useUser } from "@/contexts/UserContext";
 import { ChatInput } from "./ChatInput";
+import { ChatMessages } from "./ChatMessages";
 import { NameInput } from "./NameInput";
 
 export function Chat() {
@@ -12,7 +13,7 @@ export function Chat() {
 
   return (
     <div>
-      <h3>Chat</h3>
+      <ChatMessages />
       <div>
         <ChatInput name={userCtx.user} />
       </div>
