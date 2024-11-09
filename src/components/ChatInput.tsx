@@ -20,6 +20,8 @@ export function ChatInput({ name }: { name: string }) {
       onChange={(e) => setMessage(e.target.value)}
       placeholder={`${name}, digite sua mensagem`}
       onKeyUp={handleKeyUpAction}
+      className={`h-10 p-1 text-[#2A3663] rounded-md border border-[#2A3663]
+        ${name === "bot" ? "outline-[#D8DBBD]" : "outline-[#B59F78]"}`}
     />
   );
 }
